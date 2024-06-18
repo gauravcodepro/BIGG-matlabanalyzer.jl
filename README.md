@@ -2,7 +2,7 @@
 
 - a MATLAB interface to the flux based analysis.
 - Aynchronous programming for faster loads of the metabolic models and flux analysis.
-- imported solver CIPHELX from Julia programming. 
+- imported solver CPLEX from Julia programming. 
 
 Gaurav \
 Academic Staff Member \
