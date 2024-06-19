@@ -1,10 +1,11 @@
 # BIGG-metabolic-analyzer
 
-- a julia file to analyze the BIGG metabolic matrix.
+- a julia matlabanalyzer to analyze the BIGG metabolic matrix.
 - i used unsigned INT to make it faster and it is very fast.
+- a matlab solver with complete package for flux based analysis, faster and multiple solver support i shall be posting. 
   
 ```
-include(matlabanalyzer.jl)
+  include(matlabanalyzer.jl)
 ```
 
 Gaurav \
