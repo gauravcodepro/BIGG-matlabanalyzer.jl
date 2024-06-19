@@ -16,9 +16,10 @@ function readmatlab(matlabfile,description, keysvalue)
             println(i)
         end
     end
-    if matlabfile && keysvalue
+    if matlabfile && description && keysvalue
         readfile = read(matopen(matlabfile))
         matkeys = keys(readfile[matdescription])
+        matdescription = description
         matkeysiter = String[]
         for i in matkeys
             push!(matkeysiter,i)
