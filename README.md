@@ -1,8 +1,11 @@
-# MATLAB-metabolic-modeller
+# BIGG-metabolic-analyzer
 
-- a MATLAB interface to the flux based analysis.
-- Aynchronous programming for faster loads of the metabolic models and flux analysis.
-- imported solver CPLEX from Julia programming. 
+- a julia file to analyze the BIGG metabolic matrix.
+- i used unsigned INT to make it faster and it is very fast.
+  
+```
+include(matlabanalyzer.jl)
+```
 
 Gaurav \
 Academic Staff Member \
