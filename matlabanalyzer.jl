@@ -4,10 +4,9 @@
 # Date 2024-6-19
 # A julia function to get the keysvalue search across the matlabfile
 # iterate over the keys and store them into a String[] array and the values as UInt8 bit.
-
 # Pkg.add("MAT")
-using MAT
 
+using MAT
 function readmatlab(matlabfile,description, keysvalue)
     if matlabfile && description && !keysvalue
         readfile = read(matopen(matlabfile))
