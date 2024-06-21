@@ -1,6 +1,6 @@
 # BIGG-metabolic-analyzer
 
-- a julia matlabanalyzer to analyze the BIGG metabolic matrix.[BIGG metabolic](http://bigg.ucsd.edu/)
+- a julia matlabanalyzer to analyze the [BIGG metabolic matrix](http://bigg.ucsd.edu/)
 - i used unsigned INT8bit as it to float value signed, so there is no need of extra memory allocation.
 
 ```
