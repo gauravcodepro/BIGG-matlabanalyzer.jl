@@ -1,7 +1,8 @@
 # BIGG-metabolic-analyzer
 
 - a julia matlabanalyzer to analyze the [BIGG metabolic matrix](http://bigg.ucsd.edu/)
-- i used unsigned INT8bit as it to float value signed, so there is no need of extra memory allocation.
+- i used unsigned INT 8bit as it to float value signed, so there is no need of extra memory allocation.
+- converting this into a package else you can also use the separate one.
 
 ```
   include(matlabanalyzer.jl)
