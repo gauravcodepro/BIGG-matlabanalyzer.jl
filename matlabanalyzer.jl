@@ -32,7 +32,7 @@ function readmatlab(matlabfile,description, keysvalue)
             end
         end
         if keyvalue in matkeysInt
-            matkeyString = UInt8[]
+            matkeyString = Union{Int8,Float64}[]
             for i in values(readfile[matdescription][keysvalue])
                 push!(matkeyString, i)
             end
